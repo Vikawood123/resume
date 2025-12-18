@@ -1,0 +1,56 @@
+:: StoryTitle
+resume
+
+
+:: StoryData
+{
+  "ifid": "F7790B73-417D-42A6-8842-BDD856F127E4",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Безымянный параграф",
+  "zoom": 1
+}
+
+
+:: Безымянный параграф {"position":"625,225","size":"100,100"}
+Я практикант Вика и сегодня я расскажу что я делала на практике
+<img src = "https://github.com/Vikawood123/twine/blob/main/kandinsky-download-1761047079332.png?raw=true">
+<div class="text-box">
+
+[[далее]]
+
+</div>
+
+
+
+:: далее {"position":"625,350","size":"100,100"}
+Выполненные задачи:
+
+Ввод персональных данных – систематизация и внесение информации о людях в электронную базу.
+
+Архивная работа – подсчёт количества страниц архивных документов с учётом томов.
+
+
+:: StoryStylesheet [stylesheet]
+tw-story {
+  background-image: url('http://png.pngtree.com/background/20210717/original/pngtree-creative-light-effect-technology-chip-texture-background-picture-image_1432818.jpg');
+    background-size: cover
+}
+<div class="text-box">
+   МДКд.12.01. 
+</div>
+.text-box {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 800px;
+    z-index: 100;
+}
+
